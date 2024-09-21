@@ -146,8 +146,8 @@
 
             window.location.replace(currentUrl);
             } else {
-                currentUrl.searchParams.delete("sort", sort);
-                currentUrl.searchParams.delete("direction", direction);
+                currentUrl.searchParams.delete("sort");
+                currentUrl.searchParams.delete("direction");
 
                 window.location.replace(currentUrl);
             }
